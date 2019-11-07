@@ -1,3 +1,5 @@
+console.log('hello from start of webpack');
+
 import "core-js/stable";
 import "regenerator-runtime/runtime";
 
@@ -18,3 +20,5 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+console.log('hello from end of webpack');
